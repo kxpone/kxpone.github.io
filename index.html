@@ -25,7 +25,7 @@ var letters = Array(256).join(1).split('');
 var draw = function () {
   q.getContext('2d').fillStyle='rgba(0,0,0,.05)';
   q.getContext('2d').fillRect(0,0,width,height);
-  q.getContext('2d').fillStyle='#0F0';
+  q.getContext('2d').fillStyle='rgba(93,58,175,1)';
   letters.map(function(y_pos, index){
     text = String.fromCharCode(65+Math.random()*33);
     x_pos = index * 10;
